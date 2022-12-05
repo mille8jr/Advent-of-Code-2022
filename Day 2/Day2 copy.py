@@ -27,7 +27,7 @@ with open('Day 2/input.txt','r') as f:
         player1 = move[0].strip()
         player2 = move[1].strip()
 
-        #Check what player2 threw based on inputs
+        #Check what player2 threw based on inputs and assign base round points
         if whatToThrow(player1, player2) == "X":
             roundPoints = 1
         elif whatToThrow(player1, player2) == "Y":
